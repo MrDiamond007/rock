@@ -7,6 +7,17 @@
   font-family: "Poppins", sans-serif;
 }
 
+.container {
+  position: relative;
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  background: url(image/olumo-rock.jpg) no-repeat;
+  background-size: cover;
+  background-position: center;
+}
 header{
   position: relative;
   top: 0;
@@ -19,7 +30,7 @@ header{
 
 header .logo{
   position: relative;
-  color: #000;
+  color: #226A80;
   font-size: 30px;
   text-decoration: none;
   text-transform: uppercase;
@@ -52,7 +63,7 @@ header .navigation a:hover{
 }
 
 .content .info h1{
-  color: #226A80;
+  color: white;
   font-size: 55px;
   text-transform: uppercase;
   font-weight: 800;
@@ -61,13 +72,14 @@ header .navigation a:hover{
   margin-bottom: 30px;
 }
 
-.content .info h1 p{
-  color: #fff;
+.content .info h1 span{
+  color: white;
   font-size: 50px;
   font-weight: 600;
 }
 
 .content .info p{
+  color: white;
   font-size: 16px;
   font-weight: 500;
   margin-bottom: 40px;
@@ -95,6 +107,7 @@ header .navigation a:hover{
   justify-content: center;
   align-items: center;
   margin: auto;
+  color: white;
 }
 
 .media-icons a{
